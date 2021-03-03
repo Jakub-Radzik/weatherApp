@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/weatherApp/static/css/main.b7680b1e.chunk.css",
-    "main.js": "/weatherApp/static/js/main.492febc3.chunk.js",
-    "main.js.map": "/weatherApp/static/js/main.492febc3.chunk.js.map",
-    "runtime-main.js": "/weatherApp/static/js/runtime-main.0a11bdaf.js",
-    "runtime-main.js.map": "/weatherApp/static/js/runtime-main.0a11bdaf.js.map",
+    "main.css": "/weatherApp/static/css/main.ef4d5077.chunk.css",
+    "main.js": "/weatherApp/static/js/main.3fa8d9d7.chunk.js",
+    "main.js.map": "/weatherApp/static/js/main.3fa8d9d7.chunk.js.map",
+    "runtime-main.js": "/weatherApp/static/js/runtime-main.ae98c686.js",
+    "runtime-main.js.map": "/weatherApp/static/js/runtime-main.ae98c686.js.map",
     "static/js/2.87bc4e7c.chunk.js": "/weatherApp/static/js/2.87bc4e7c.chunk.js",
     "static/js/2.87bc4e7c.chunk.js.map": "/weatherApp/static/js/2.87bc4e7c.chunk.js.map",
-    "static/js/3.d1ed549e.chunk.js": "/weatherApp/static/js/3.d1ed549e.chunk.js",
-    "static/js/3.d1ed549e.chunk.js.map": "/weatherApp/static/js/3.d1ed549e.chunk.js.map",
+    "static/js/3.15001615.chunk.js": "/weatherApp/static/js/3.15001615.chunk.js",
+    "static/js/3.15001615.chunk.js.map": "/weatherApp/static/js/3.15001615.chunk.js.map",
     "index.html": "/weatherApp/index.html",
-    "static/css/main.b7680b1e.chunk.css.map": "/weatherApp/static/css/main.b7680b1e.chunk.css.map",
+    "static/css/main.ef4d5077.chunk.css.map": "/weatherApp/static/css/main.ef4d5077.chunk.css.map",
     "static/js/2.87bc4e7c.chunk.js.LICENSE.txt": "/weatherApp/static/js/2.87bc4e7c.chunk.js.LICENSE.txt",
     "static/media/cloudy.9a5b54f5.png": "/weatherApp/static/media/cloudy.9a5b54f5.png",
     "static/media/sunrise.dfc26d98.png": "/weatherApp/static/media/sunrise.dfc26d98.png",
-    "static/media/sunset.5f82843c.png": "/weatherApp/static/media/sunset.5f82843c.png"
+    "static/media/sunset.5f82843c.png": "/weatherApp/static/media/sunset.5f82843c.png",
+    "static/media/HomePage.sass": "/weatherApp/static/media/weather1.b9fd9986.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a11bdaf.js",
+    "static/js/runtime-main.ae98c686.js",
     "static/js/2.87bc4e7c.chunk.js",
-    "static/css/main.b7680b1e.chunk.css",
-    "static/js/main.492febc3.chunk.js"
+    "static/css/main.ef4d5077.chunk.css",
+    "static/js/main.3fa8d9d7.chunk.js"
   ]
 }
