@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/weatherApp/static/css/main.4630dbd0.chunk.css",
-    "main.js": "/weatherApp/static/js/main.1d6f898b.chunk.js",
-    "main.js.map": "/weatherApp/static/js/main.1d6f898b.chunk.js.map",
-    "runtime-main.js": "/weatherApp/static/js/runtime-main.29c5a59a.js",
-    "runtime-main.js.map": "/weatherApp/static/js/runtime-main.29c5a59a.js.map",
-    "static/js/2.1dbfef17.chunk.js": "/weatherApp/static/js/2.1dbfef17.chunk.js",
-    "static/js/2.1dbfef17.chunk.js.map": "/weatherApp/static/js/2.1dbfef17.chunk.js.map",
-    "static/js/3.915458ff.chunk.js": "/weatherApp/static/js/3.915458ff.chunk.js",
-    "static/js/3.915458ff.chunk.js.map": "/weatherApp/static/js/3.915458ff.chunk.js.map",
+    "main.css": "/weatherApp/static/css/main.6256e589.chunk.css",
+    "main.js": "/weatherApp/static/js/main.2c995fd2.chunk.js",
+    "main.js.map": "/weatherApp/static/js/main.2c995fd2.chunk.js.map",
+    "runtime-main.js": "/weatherApp/static/js/runtime-main.3e4ecfb9.js",
+    "runtime-main.js.map": "/weatherApp/static/js/runtime-main.3e4ecfb9.js.map",
+    "static/js/2.3e8ff60a.chunk.js": "/weatherApp/static/js/2.3e8ff60a.chunk.js",
+    "static/js/2.3e8ff60a.chunk.js.map": "/weatherApp/static/js/2.3e8ff60a.chunk.js.map",
+    "static/js/3.7b35477f.chunk.js": "/weatherApp/static/js/3.7b35477f.chunk.js",
+    "static/js/3.7b35477f.chunk.js.map": "/weatherApp/static/js/3.7b35477f.chunk.js.map",
     "index.html": "/weatherApp/index.html",
-    "static/css/main.4630dbd0.chunk.css.map": "/weatherApp/static/css/main.4630dbd0.chunk.css.map",
-    "static/js/2.1dbfef17.chunk.js.LICENSE.txt": "/weatherApp/static/js/2.1dbfef17.chunk.js.LICENSE.txt",
+    "static/css/main.6256e589.chunk.css.map": "/weatherApp/static/css/main.6256e589.chunk.css.map",
+    "static/js/2.3e8ff60a.chunk.js.LICENSE.txt": "/weatherApp/static/js/2.3e8ff60a.chunk.js.LICENSE.txt",
     "static/media/cloudy.9a5b54f5.png": "/weatherApp/static/media/cloudy.9a5b54f5.png",
     "static/media/sunrise.dfc26d98.png": "/weatherApp/static/media/sunrise.dfc26d98.png",
     "static/media/sunset.5f82843c.png": "/weatherApp/static/media/sunset.5f82843c.png",
     "static/media/HomePage.sass": "/weatherApp/static/media/weather1.b9fd9986.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.29c5a59a.js",
-    "static/js/2.1dbfef17.chunk.js",
-    "static/css/main.4630dbd0.chunk.css",
-    "static/js/main.1d6f898b.chunk.js"
+    "static/js/runtime-main.3e4ecfb9.js",
+    "static/js/2.3e8ff60a.chunk.js",
+    "static/css/main.6256e589.chunk.css",
+    "static/js/main.2c995fd2.chunk.js"
   ]
 }
