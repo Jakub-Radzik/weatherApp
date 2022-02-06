@@ -1,0 +1,81 @@
+$hourColor: #0ba5cd
+
+.scrollWrapperHour
+  width: 98%
+  display: flex
+  flex-direction: row
+  overflow-y: hidden
+  margin: 100px auto
+  box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.75)
+  border-radius: 3px
+
+  @media screen and (max-width: 1024px)
+    width: 100%
+    border-radius: 0
+    box-shadow: none
+    margin: 0
+    -ms-overflow-style: none  /* IE and Edge */
+    scrollbar-width: none  /* Firefox */
+    &::-webkit-scrollbar
+      display: none
+
+
+.hour
+    color: white
+    min-height: 600px
+    min-width: 150px
+    border-right: 1px solid black
+    background-color: rgba($hourColor, .7)
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+    border-right: 2px solid rgba(#000000,0.3)
+    @media screen and (max-width: 1024px)
+      min-width: 250px
+    &:nth-last-child(1)
+      border: 0
+    >div
+      width: 80%
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      align-items: center
+      @media screen and (max-width: 1024px)
+        width: 60%
+      #windArrow
+        width: 15px
+      img
+        width: 40px
+    .weather
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: space-around
+      height: 150px
+      font-weight: 500
+      letter-spacing: 1px
+      >img
+        width: 100px
+    .dt
+      justify-content: center
+      font-weight: bold
+      font-size: 1.5em
+      letter-spacing: 3px
+
+    .wind
+      p
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-around
+    .clouds
+      width: 100%
+      display: flex
+      flex-direction: row
+      justify-content: space-around
+      align-items: center
+
+.scrollWrapperHour
+  .h18,.h19,.h20,.h21,.h22,.h23,.h00,.h01,.h02,.h03,.h04,.h05,.h06
+    background-color: darken(rgba($hourColor, .8),20)

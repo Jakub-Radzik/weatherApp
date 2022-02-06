@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap')
+
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
+
++keyframes(imageAnimation)
+  0%
+    background-position: left top
+  100%
+    background-position: right bottom
+
+.homepage
+  width: 100%
+  height: 80vh
+  background: url("../../Images/homePageImages/weather1.jpg")
+  background-repeat: no-repeat
+  background-attachment: fixed
+  animation: imageAnimation 20s linear infinite alternate
+  background-size: cover
+  .greet
+    color: white
+    background-color: rgba(0, 0, 0, 0.5)
+    height: 100%
+    @media screen and (max-width: 1024px)
+      display: flex
+      justify-content: center
+      align-items: center
+    .container
+      width: 50%
+      height: 30%
+      font-family: 'Bai Jamjuree', sans-serif
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      position: absolute
+      left: 20px
+      bottom: 100px
+      @media screen and (max-width: 1024px)
+        position: static
+        width: 100%
+      h1
+        font-size: 3em
+        letter-spacing: 4px
+        margin: 0 0 20px
+        @media screen and (max-width: 1024px)
+          font-size: 2em
+        @media screen and (max-width: 1024px)
+          font-size: 1.5em
+      div
+        font-size: 1.5em
+        @media screen and (max-width: 1024px)
+          font-size: 1em

@@ -1,0 +1,72 @@
+//variables
+//$navBackground: #5454e2
+$navBackground: #1a1acf
+$footerBackground: adjust-hue($navBackground, -20deg)
+
+//CLEAR Styles
+body
+  margin: 0
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+code
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace
+.App
+    text-align: center
+
+
+
+
+@import 'GlobalComponents/Navigation'
+@import 'GlobalComponents/MobileNavigation'
+@import 'GlobalComponents/Footer'
+
+
+
+
+
+
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
+
++keyframes(imageAnimation)
+  0%
+    background-position: left top
+  100%
+    background-position: right bottom
+
+#root
+  background: url("../Images/homePageImages/weather2.jpeg")
+  background-repeat: no-repeat
+  background-attachment: fixed
+  animation: imageAnimation 20s linear infinite alternate
+  background-size: cover
+
+a
+  text-decoration: none
+
+//custom scrollbar
+::-webkit-scrollbar
+  width: 10px
+
+
+/* Track */
+::-webkit-scrollbar-track
+  background: #447ad9
+
+
+/* Handle */
+::-webkit-scrollbar-thumb
+  background: #0f1ae3
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+  background: #0f0a4f

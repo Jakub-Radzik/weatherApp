@@ -1,0 +1,55 @@
+nav.mobile
+  height: 300px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  font-size: 1.7em
+  color: white
+  a
+    height: 80%
+    .logo
+      height: 40%
+      display: flex
+      flex-direction: row
+      justify-content: center
+      align-items: center
+      margin-top: 40px
+      img
+        height: 100px
+      h1
+        margin: 0
+        color: white
+        @media screen and (max-width: 520px)
+          font-size: 1em
+  form
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: 100%
+    width: 100%
+    .toggle
+      height: 50px
+      width: 100%
+      background-color: rgba(adjust-hue($navBackground, -20deg), 0.7)
+      display: flex
+      justify-content: center
+      align-items: center
+
+.menu
+  font-size: 1.7em
+  width: 100%
+  position: absolute
+  z-index: 9999
+  display: none
+  .menu-item
+    height: 50px
+    display: flex
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    background-color: rgba($navBackground, 0.9)
+    color: white
+    border-bottom: 1px solid adjust-hue($navBackground, 15deg)
+
+

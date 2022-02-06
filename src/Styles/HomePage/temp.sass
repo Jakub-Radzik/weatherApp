@@ -1,0 +1,58 @@
+$searchWidth: 150px
+$searcherHeight: 50px
+$color : #3b33c8
+
+.cityName
+  position: fixed
+  top: 0
+  left: 0
+  //width: 10%
+  height: 50px
+  padding: 0 50px
+  font-size: 20px
+  color: white
+  background-color: $color
+  border-radius: 0 0 20px 0
+  display: flex
+  justify-content: center
+  align-items: center
+  z-index: 900
+  @media screen and (max-width: 1024px)
+    position: relative
+
+
+.searchEngine
+  form
+    display: flex
+    flex-direction: row !important
+    justify-content: center !important
+    align-items: center !important
+    .search
+      width: $searchWidth
+      height: $searcherHeight
+      padding: 0
+      border: 1px solid black
+      border-radius: 20px 0 0 0
+      background: white
+      outline: none
+      font-size: 1.5em
+      @media screen and (max-width: 1024px)
+        width: 80%
+    #submit-search
+      border: 1px solid black
+      border-left: 0
+      height: $searcherHeight
+      width: 50px
+      display: flex
+      justify-content: center
+      align-items: center
+      border-radius: 0 0 20px 0
+      background: white
+      transition-duration: 0.3s
+      &:hover
+        background: red
+        img
+          transform: scale(1.2)
+          transition-duration: 0.3s
+      img
+        width: 50%

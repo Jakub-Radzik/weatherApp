@@ -1,0 +1,66 @@
+
+$navBackground: #1a1acf
+
+.airPollutionWidget
+  margin: 50px auto
+  letter-spacing: 2px
+  width: 45%
+  max-width: 800px
+  background: rgba($navBackground, 0.7)
+  color: white
+  display: flex
+  align-items: center
+  justify-content: space-between
+  border-radius: 30px 0
+  @media screen and (max-width: 1024px)
+    max-width: none
+    width: 100%
+    margin: 0
+    border-radius: 0
+    flex-direction: column
+    padding: 50px 0
+  .left
+    width: 100%
+    max-width: 500px
+    font-size: 30px
+    @media screen and (max-width: 1024px)
+      width: 90%
+    >div
+      margin: 50px auto
+    .quality
+      border-radius: 20px 0
+      width: 70%
+      min-height: 50px
+      color: black
+    .q1
+      background : rgba(green, 0.8)
+      color: white
+    .q2
+      background : rgba(yellowgreen, 0.7)
+    .q3
+      background : rgba(yellow, 0.8)
+    .q4
+      background : rgba(orange, 0.7)
+      color: white
+    .q5
+      background : rgba(red, 0.7)
+      color: white
+
+  .right
+    width: 100%
+    max-width: 500px
+    display: flex
+    flex-direction: column
+    align-items: center
+    @media screen and (max-width: 1024px)
+      width: 80%
+    div
+      width: 90%
+      height: 30px
+      margin: 5px
+      display: flex
+      justify-content: space-between
+      align-items: center
+      @media screen and (max-width: 1024px)
+        width: 80%
+
